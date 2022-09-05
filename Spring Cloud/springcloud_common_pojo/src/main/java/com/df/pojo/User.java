@@ -1,10 +1,12 @@
 package com.df.pojo;
 
+import java.io.Serializable;
+
 /**
  * @author Loser
  * @date 2021年11月12日 14:39
  */
-public class User {
+public class User implements Serializable {
     private Integer id;
     private String nam;
     private Integer age;

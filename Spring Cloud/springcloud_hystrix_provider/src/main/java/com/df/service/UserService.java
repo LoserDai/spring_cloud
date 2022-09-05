@@ -9,5 +9,9 @@ import org.springframework.stereotype.Service;
  */
 
 public interface UserService {
+     /**
+      * 获取用户
+      * @return
+      */
      User getUser();
 }
