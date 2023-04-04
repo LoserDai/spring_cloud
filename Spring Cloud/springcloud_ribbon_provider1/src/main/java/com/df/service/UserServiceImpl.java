@@ -12,6 +12,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User getUser(Integer id){
-        return new User(id,"Tom",18);
+        return new User(id,"服务提供者1",18);
     }
 }
